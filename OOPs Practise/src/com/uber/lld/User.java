@@ -15,6 +15,14 @@ public class User{
 //        //Static members acessed through class name Uber.lld.Driver
 //        System.out.println("Total drivers: "+Uber.lld.Driver.getTotalDrivers());
 
-        System.out.print(d2.toString());
+        System.out.println(d2.toString());
+
+
+        Fare f1 = new Fare(150, 1.2, "INR");
+        System.out.println(f1.getTotalfare());
+
+        XUV3x0 xuv3x0_01 = new XUV3x0( "V-001","KA40N4597");
+        System.out.println( xuv3x0_01.toString());
+        System.out.println(xuv3x0_01.calculateFare(15));
     }
 }

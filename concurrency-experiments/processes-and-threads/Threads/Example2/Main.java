@@ -1,3 +1,4 @@
+package Threads.Example2;
 
 public class Main
 {

@@ -1,3 +1,5 @@
+package Threads.Example2;
+
 public class IndividualNumberPrinter implements Runnable {
 
     int num;

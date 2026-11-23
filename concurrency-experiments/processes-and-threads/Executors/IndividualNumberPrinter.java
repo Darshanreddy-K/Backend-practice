@@ -1,4 +1,4 @@
-package ExecutorsAndCallables;
+package Executors;
 
 public class IndividualNumberPrinter implements Runnable {
 
